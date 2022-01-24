@@ -1,8 +1,22 @@
-/*
-Colors:
+.logo {
+    width: 1000px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+	font-family: Helvetica,Arial,sans-serif;
+}
 
-*/
+.green-color {
+    background-color: green;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-bar {
+    position: fixed;
+}
